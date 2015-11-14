@@ -27,7 +27,7 @@
     _backgroundImage.image = [YLGIFImage imageNamed:@"snow.gif"];
 
     audioController = [[FSAudioController alloc] init];
-    audioController.url = [NSURL URLWithString:@"http://stream.soundicradio.com/listen.pls"];
+    audioController.url = [NSURL URLWithString:@"http://www.julradio.se/ios.pls"];
     
     __weak typeof(self) weakSelf = self;
     
