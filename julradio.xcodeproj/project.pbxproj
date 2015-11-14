@@ -7,15 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6C4311AE246CC232D6017EFE /* Pods_julradio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77BE7BD2F3A65D14DB8C0CC1 /* Pods_julradio.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		DF7E1F871BEE40B5009324EF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7E1F861BEE40B5009324EF /* main.m */; };
 		DF7E1F8A1BEE40B5009324EF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7E1F891BEE40B5009324EF /* AppDelegate.m */; };
 		DF7E1F8D1BEE40B5009324EF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7E1F8C1BEE40B5009324EF /* ViewController.m */; };
 		DF7E1F901BEE40B5009324EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF7E1F8E1BEE40B5009324EF /* Main.storyboard */; };
 		DF7E1F921BEE40B5009324EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF7E1F911BEE40B5009324EF /* Assets.xcassets */; };
 		DF7E1F951BEE40B5009324EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF7E1F931BEE40B5009324EF /* LaunchScreen.storyboard */; };
+		DF7E1F9D1BEE4A43009324EF /* snow.gif in Resources */ = {isa = PBXBuildFile; fileRef = DF7E1F9C1BEE4A43009324EF /* snow.gif */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		190907DB53A0785D03C586B3 /* Pods-julradio.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-julradio.release.xcconfig"; path = "Pods/Target Support Files/Pods-julradio/Pods-julradio.release.xcconfig"; sourceTree = "<group>"; };
+		77BE7BD2F3A65D14DB8C0CC1 /* Pods_julradio.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_julradio.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF7E1F821BEE40B5009324EF /* julradio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = julradio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF7E1F861BEE40B5009324EF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DF7E1F881BEE40B5009324EF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +30,8 @@
 		DF7E1F911BEE40B5009324EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DF7E1F941BEE40B5009324EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DF7E1F961BEE40B5009324EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF7E1F9C1BEE4A43009324EF /* snow.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = snow.gif; sourceTree = "<group>"; };
+		EF2FEAB5B1EEF3431C36E5CC /* Pods-julradio.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-julradio.debug.xcconfig"; path = "Pods/Target Support Files/Pods-julradio/Pods-julradio.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +39,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C4311AE246CC232D6017EFE /* Pods_julradio.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		47DBF042F2B7DA9034EA661B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EF2FEAB5B1EEF3431C36E5CC /* Pods-julradio.debug.xcconfig */,
+				190907DB53A0785D03C586B3 /* Pods-julradio.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		DF7E1F791BEE40B5009324EF = {
 			isa = PBXGroup;
 			children = (
 				DF7E1F841BEE40B5009324EF /* julradio */,
 				DF7E1F831BEE40B5009324EF /* Products */,
+				47DBF042F2B7DA9034EA661B /* Pods */,
+				E7F8768FCE42E0F548FA9103 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -74,9 +92,18 @@
 		DF7E1F851BEE40B5009324EF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				DF7E1F9C1BEE4A43009324EF /* snow.gif */,
 				DF7E1F861BEE40B5009324EF /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E7F8768FCE42E0F548FA9103 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				77BE7BD2F3A65D14DB8C0CC1 /* Pods_julradio.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -86,9 +113,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DF7E1F991BEE40B5009324EF /* Build configuration list for PBXNativeTarget "julradio" */;
 			buildPhases = (
+				A743BFBA23F9337751C51F3E /* Check Pods Manifest.lock */,
 				DF7E1F7E1BEE40B5009324EF /* Sources */,
 				DF7E1F7F1BEE40B5009324EF /* Frameworks */,
 				DF7E1F801BEE40B5009324EF /* Resources */,
+				C24D773F6B151AD3B7F45164 /* Embed Pods Frameworks */,
+				E9C5CFF56132C454D4BCB565 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -139,10 +169,59 @@
 				DF7E1F951BEE40B5009324EF /* LaunchScreen.storyboard in Resources */,
 				DF7E1F921BEE40B5009324EF /* Assets.xcassets in Resources */,
 				DF7E1F901BEE40B5009324EF /* Main.storyboard in Resources */,
+				DF7E1F9D1BEE4A43009324EF /* snow.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A743BFBA23F9337751C51F3E /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C24D773F6B151AD3B7F45164 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-julradio/Pods-julradio-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9C5CFF56132C454D4BCB565 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-julradio/Pods-julradio-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DF7E1F7E1BEE40B5009324EF /* Sources */ = {
@@ -261,6 +340,7 @@
 		};
 		DF7E1F9A1BEE40B5009324EF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF2FEAB5B1EEF3431C36E5CC /* Pods-julradio.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = julradio/Info.plist;
@@ -272,6 +352,7 @@
 		};
 		DF7E1F9B1BEE40B5009324EF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 190907DB53A0785D03C586B3 /* Pods-julradio.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = julradio/Info.plist;
@@ -300,6 +381,7 @@
 				DF7E1F9B1BEE40B5009324EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
