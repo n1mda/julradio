@@ -140,6 +140,7 @@
 				TargetAttributes = {
 					DF7E1F811BEE40B5009324EF = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 39WVF9992J;
 					};
 				};
 			};
@@ -343,9 +344,11 @@
 			baseConfigurationReference = EF2FEAB5B1EEF3431C36E5CC /* Pods-julradio.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = julradio/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.axelmoller.julradio;
+				PRODUCT_BUNDLE_IDENTIFIER = Julradio;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -355,9 +358,11 @@
 			baseConfigurationReference = 190907DB53A0785D03C586B3 /* Pods-julradio.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = julradio/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.axelmoller.julradio;
+				PRODUCT_BUNDLE_IDENTIFIER = Julradio;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
