@@ -14,7 +14,7 @@
 		DF7E1F901BEE40B5009324EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF7E1F8E1BEE40B5009324EF /* Main.storyboard */; };
 		DF7E1F921BEE40B5009324EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF7E1F911BEE40B5009324EF /* Assets.xcassets */; };
 		DF7E1F951BEE40B5009324EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF7E1F931BEE40B5009324EF /* LaunchScreen.storyboard */; };
-		DF7E1F9D1BEE4A43009324EF /* snow.gif in Resources */ = {isa = PBXBuildFile; fileRef = DF7E1F9C1BEE4A43009324EF /* snow.gif */; settings = {ASSET_TAGS = (); }; };
+		DF7E1F9D1BEE4A43009324EF /* snow.gif in Resources */ = {isa = PBXBuildFile; fileRef = DF7E1F9C1BEE4A43009324EF /* snow.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
